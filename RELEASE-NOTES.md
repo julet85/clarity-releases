@@ -13,6 +13,13 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.13.0] — 2026-10-13
+
+### New
+- **Reports: counselling vs support work.** One slim bar under the headline figures shows how the period splits
+  between counselling and NDIS support work, with each side's income, hours and sessions (PC Reports and iPhone
+  Insights). The accountant CSV export has a new *Type* column.
+
 ## [1.12.0] — 2026-10-13
 
 ### New
