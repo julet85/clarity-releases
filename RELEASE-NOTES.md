@@ -13,6 +13,21 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.10.0] — 2026-10-13
+
+### New
+- **Every invoice belongs to an appointment.** The invoice wizard (PC and iPhone) starts with *Which session is this
+  for?*: pick one of the client's appointments from the last 4 months that hasn't been invoiced. The date comes from
+  the appointment, each appointment can be invoiced only once (unless that invoice is voided), and a past "booked"
+  session is marked completed. Older invoices are unchanged.
+- **Not in the calendar?** Choose *Log a past session*: it's added to Appointments as completed (no invitation is
+  sent) and the invoice is linked to it.
+- Appointments show *invoiced CA-…*, and the appointment opens its invoice.
+- **Kilometres from your Tesla (PC).** With TeslaMate connected (Settings → TeslaMate), **Get km from Tesla** in the
+  invoice wizard reads the trips around the session and ticks the ones that start and end in the client's suburb
+  during it — your commute there and home is left out. You see every trip and confirm before anything is billed;
+  the route (e.g. Bedfordale → Armadale → Bedfordale) fills in too. Read-only, from the PC on your home network.
+
 ## [1.9.1] — 2026-10-12
 
 ### Fixed
