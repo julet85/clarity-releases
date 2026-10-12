@@ -13,6 +13,40 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.16.0] — 2026-10-13
+
+### New
+- **Audit log** (Settings → Audit log, and *Audit log* on each client's Details tab). Every view, change, email and
+  export of a client record — client details, session notes, invoices and their PDFs, files, appointments, consent
+  forms, CSV exports, backups, sign-ins — is recorded with the date and time, **who** was signed in, **which device**
+  (PC or iPhone) and the client. Filter by views / changes / exports / sign-ins, device or text, and export to CSV for
+  an audit. Entries can't be edited or deleted; the iPhone's entries reach the PC with the next sync.
+- **Billing sign-in** (Settings → People who can sign in). Give a bookkeeper their own password: they can do
+  invoices, payments, appointments and reports, but can't open session notes, transcripts, Hermes, consent forms,
+  clinical client details (referral reason, goals, needs, GP) or files other than receipts, and can't change
+  settings. Refused attempts are logged.
+- **Record retention.** Each client shows *Keep records until* (7 years after the last contact, or until a child
+  turns 25). Session notes, activity notes and record files (forms, referrals, reports, plans, letters, receipts)
+  can only be deleted within 24 hours of adding them — for mistakes. Copies of ID documents and "Other" files can
+  be deleted at any time.
+- **Privacy & security** in Settings: where client information is stored, how it's encrypted and who can see it.
+  The full statement (architecture, encryption at rest and in transit, data flows, APP mapping, retention, ATO
+  invoicing) is in docs/PRIVACY-AND-SECURITY.md.
+
+### Changed
+- **Privacy & collection notice, version 2.0.** It now tells clients exactly where their information is kept (on
+  your devices in Australia; encrypted copies in Google Drive; appointment times with their name and email in Google
+  Calendar; emails via Gmail; session addresses to Google Maps) and has an **optional box for the AI writing
+  assistant**. Existing clients are flagged to re-sign it.
+- **Hermes only for clients who said yes:** the assistant now runs only for clients who ticked the AI box on the new
+  notice (version 1 told clients their information isn't given to AI services).
+- **Invoices follow the ATO rules for your GST status** (new switch: Settings → Business details → *Registered for
+  GST*, off by default). Not registered: titled *Invoice*, no GST line, and "No GST is charged: … is not registered
+  for GST" (the old line wrongly called the supplies "GST-free under the GST Act"). Registered: titled *Tax invoice*
+  with the GST line and "GST-free supply: NDIS supports under the participant's plan". Invoices already issued keep
+  their wording. Same on the iPhone and in the emails.
+- The invoice wizard's service-agreement reminder only mentions the ATO when you're registered for GST.
+
 ## [1.15.1] — 2026-10-13
 
 ### Fixed
