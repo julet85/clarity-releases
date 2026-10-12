@@ -13,6 +13,14 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.8.1] — 2026-10-12
+
+### Fixed
+- Consent forms: long tick-box wording (like the optional transcript agreement) now sits beside its box instead of
+  dropping underneath it.
+- Telehealth consent: the **Call-back number** box now says it's the client's own mobile (it fills in from the
+  client's phone number when one is saved).
+
 ## [1.8.0] — 2026-10-12
 
 ### New
