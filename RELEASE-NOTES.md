@@ -13,6 +13,21 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.14.2] — 2026-10-13
+
+### Improved
+- **iPhone appointments:** the buttons are grouped like on the PC — *Remind* and *Change* side by side, *Completed* and
+  *No-show* side by side, and *Cancel* / *Delete* as small red links at the bottom. An in-person session's address
+  is a card that opens directions in Apple Maps. Dates show the day too ("Thursday 15 October"), and in-person
+  sessions have a people icon instead of the pin that looked like an anchor.
+- **iPhone new invoice:** choose the client first; the session, times and travel then appear already filled in (no more
+  1:15am–1:15am). *Save invoice* is a proper button with *Preview PDF* under it.
+- **iPhone session notes:** the client and date are tidy rows (the stray grey shapes behind them are gone).
+
+### Fixed
+- iPhone Home said "Synced in 0 seconds"; it now says "Synced just now".
+- iPhone: an invoice said "Support" for counselling sessions; it now shows the session type.
+
 ## [1.14.1] — 2026-10-13
 
 ### Improved
