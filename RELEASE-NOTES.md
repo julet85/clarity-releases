@@ -13,6 +13,18 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.13.1] — 2026-10-13
+
+### Fixed
+- **Hermes assistant:** the question box had white text on a white background, so typing was invisible.
+- The assistant now works like a chat: the conversation scrolls in the middle, the message box is at the bottom
+  (Enter to send, Shift+Enter for a new line), and you can **reply to Hermes** — follow-ups include the last few
+  exchanges so its questions can be answered. Replies show headings, lists and bold properly.
+
+### Security
+- What you type to Hermes (and the earlier exchanges sent with a follow-up) now goes through the same name/number
+  hiding as the note itself. Before, only the note was redacted.
+
 ## [1.13.0] — 2026-10-13
 
 ### New
