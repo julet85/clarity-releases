@@ -13,6 +13,22 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.11.0] — 2026-10-13
+
+### New
+- **Plan the route with Google Maps** when TeslaMate isn't available: type the stops in the order you drove (it
+  starts with the client's address), and Google works out each leg and the total driving distance. Reorder or remove
+  stops, check the map, then use it. Available in the invoice wizard and on any past appointment.
+- **A map of each session** under Appointments → *Session travel*: the kilometres, the route and a map — for a Tesla
+  route it's the actual path driven (from TeslaMate's GPS points); for a Google Maps route, the roads between the
+  stops. On the iPhone the map is drawn with Apple Maps.
+- The route is saved on the appointment, so invoicing that session fills in the kilometres and route by itself.
+- Settings → **Google Maps** for the API key, with a test (see docs/GOOGLE-MAPS.md). Without a key, Tesla routes
+  show as a simple outline and nothing is sent to Google.
+
+### Changed
+- The TeslaMate read-only login also needs to read `positions` for the route map (one extra GRANT, docs/TESLAMATE.md).
+
 ## [1.10.0] — 2026-10-13
 
 ### New
