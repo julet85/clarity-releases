@@ -13,6 +13,16 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.9.0] — 2026-10-12
+
+### New
+- **Activity on each client** (PC: below the client's details; iPhone: on the client page). Log a call, text, email
+  or quick note in seconds, e.g. "Tried calling Rachel — no answer". The time fills in as now and can be changed.
+- One-tap quick notes: *No answer*, *Left voicemail*, *Spoke with …*, *Texted*, *Emailed*.
+- The timeline also shows what Clarity already knows about the client: invoices, payments, emails, signed forms,
+  appointments, reminders and session notes. Switch to **Notes only** to see just your own entries.
+- Edit or delete your own entries; they sync between the PC and iPhone like everything else.
+
 ## [1.8.1] — 2026-10-12
 
 ### Fixed
