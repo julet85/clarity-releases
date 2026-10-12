@@ -13,6 +13,13 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.11.1] — 2026-10-13
+
+### Fixed
+- Settings → TeslaMate / Google Maps: the example text in empty boxes (like "192.168.1.202") looked like a real value,
+  so **Test connection** stayed greyed out. Examples are now in italics and start with "e.g.", and the test buttons
+  light up as soon as you type (they save before testing).
+
 ## [1.11.0] — 2026-10-13
 
 ### New
