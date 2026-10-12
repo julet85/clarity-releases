@@ -23,6 +23,18 @@ change adds or extends an entry here. (Maintainers: features → bump the middle
   already on that day). These stay in Clarity only — nothing is added to Google Calendar and the client isn't
   emailed. With TeslaMate connected, each session is matched to the Tesla's trips and clear matches are saved as
   the session's route and map; you see the billed km next to the Tesla km. Invoices themselves don't change.
+- **Record a past session by hand.** *New appointment* now accepts past dates: a session that has already finished
+  is recorded in Clarity only (no Google Calendar, nobody emailed), you can pick that day's invoice to link it to,
+  and the appointment opens straight on *Session travel* so you can add the km from Tesla or Google Maps.
+  Past appointments without an invoice also offer *Link to invoice …* for that day's invoice.
+- **Counselling or NDIS support work.** Every appointment and invoice has a session type, shown as a coloured label
+  and filterable under Appointments. Video and phone sessions default to counselling and in-person to support work;
+  change it on the appointment (until it's invoiced). Counselling invoices use their own line wording and rate
+  (Settings → Session types), and a client can have their own counselling rate (Edit details → Billing). Existing
+  invoices count as support work.
+- **Delete appointments** (PC and iPhone). Choose whether the client is told (Google emails a cancellation) or not;
+  it's removed from Google Calendar too so it doesn't come back. Invoiced sessions can't be deleted — void the
+  invoice first. Session notes are kept.
 
 ## [1.11.1] — 2026-10-13
 
