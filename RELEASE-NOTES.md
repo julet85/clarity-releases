@@ -13,6 +13,18 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.14.0] — 2026-10-13
+
+### New
+- **iPhone: plan the route with Apple Maps.** In the iPhone's invoice form (Travel) and on a past appointment, list
+  the stops in the order you drove and Apple Maps works out each leg and the total driving distance — no key needed.
+  The route is saved on the appointment, so the PC shows it on the session's map too.
+- **iPhone uses routes saved on the PC.** If a session's route was worked out on the PC (Get from Tesla or Google
+  Maps), the iPhone's invoice form fills in the kilometres and route from it.
+
+### Notes
+- Tesla trips are still read on the PC only: TeslaMate's database login stays on the PC (home network).
+
 ## [1.13.1] — 2026-10-13
 
 ### Fixed
