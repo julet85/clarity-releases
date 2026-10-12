@@ -13,6 +13,18 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.15.1] — 2026-10-13
+
+### Fixed
+- **iPhone: back where you left off.** Switching to another app and back no longer drops you on the Home page —
+  after Face ID you're on the same tab, page and form. The lock screen now covers everything (open forms
+  included) while locked.
+- iPhone: a session note being typed when you switch apps is saved before Clarity locks (it could be lost).
+- **iPhone: online bookings not showing.** The iPhone reads new bookings straight from Google Calendar; if that
+  fails (for example the Calendar API isn't switched on for the iPhone's Google sign-in), it now says so on the bell
+  and on Appointments, with Google's reason, instead of failing silently. Until it's fixed, bookings still arrive
+  once the PC has picked them up and synced.
+
 ## [1.15.0] — 2026-10-13
 
 ### New
