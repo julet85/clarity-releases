@@ -13,6 +13,32 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.15.0] — 2026-10-13
+
+### New
+- **Files for each client** (PC: the client's new *Files* tab; iPhone: the *Files* card on the client's page).
+  Keep referrals, completed forms, receipts, reports, NDIS plans, letters and ID documents with the client:
+  - **Add** on the PC by dragging files onto the page or with *Add files…*; on the iPhone from Files, the photo
+    library, or by **scanning** a paper document with the camera.
+  - Each file has a **type** (Completed form, Referral, Report / assessment, NDIS plan, Receipt, Letter, ID document,
+    Other) — Clarity guesses it from the file name and you can change it from the drop-down — and a name you can edit.
+  - Each shows **when it was added, by whom and on which device** (e.g. "added 13 Oct 2026, 9:14am by Joanne on the
+    iPhone"), its size and file type. Filter the list by type.
+  - **Open** them on the PC (PDFs and photos inside Clarity, Word/Excel and others in their own app; or save a copy)
+    and on the iPhone (Quick Look).
+  - **Delete** them (on both devices).
+  - Adding a file shows in the client's Activity.
+- PDFs, photos and Word/Excel/PowerPoint/Pages documents, up to 20 MB each. Program files are refused.
+
+### Security
+- Files are stored encrypted with the client's record and travel to the iPhone the same way invoice PDFs do —
+  encrypted before they reach Google Drive. A file opened in another app is a temporary copy that's wiped when
+  Clarity locks or closes (on the iPhone, when the preview closes).
+
+### Improved
+- Sync is ready for future additions: changes for a kind of record a device doesn't know yet are kept until it's
+  updated, instead of being skipped.
+
 ## [1.14.2] — 2026-10-13
 
 ### Improved
