@@ -13,6 +13,13 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.9.1] — 2026-10-12
+
+### Fixed
+- **Restart to update** showed a ".NET Framework — unhandled exception 'master'" box. Clarity now closes itself
+  cleanly first, and the installer starts a few seconds later and reopens Clarity when it's done.
+- Before installing, Clarity checks the downloaded update once more and refuses it if the file has changed.
+
 ## [1.9.0] — 2026-10-12
 
 ### New
