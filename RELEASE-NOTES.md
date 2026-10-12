@@ -13,6 +13,17 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.12.0] — 2026-10-13
+
+### New
+- **Sessions up to 8 hours.** Appointment lengths now go from 30 minutes to 8 hours (PC and iPhone), for full-day
+  NDIS supports; the usual length in Settings goes up to 8 hours too.
+- **Past appointments from older invoices.** On a client's Details tab, *Create past appointments* turns each
+  invoice that has no appointment into a completed appointment on its date and times (or links the appointment
+  already on that day). These stay in Clarity only — nothing is added to Google Calendar and the client isn't
+  emailed. With TeslaMate connected, each session is matched to the Tesla's trips and clear matches are saved as
+  the session's route and map; you see the billed km next to the Tesla km. Invoices themselves don't change.
+
 ## [1.11.1] — 2026-10-13
 
 ### Fixed
