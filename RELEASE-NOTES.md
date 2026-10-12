@@ -13,6 +13,28 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.14.1] — 2026-10-13
+
+### Improved
+- **A tidier, more polished PC app.** A pass over every screen:
+  - Appointment and invoice panels group their buttons: the main action on top, everyday actions in a neat two-column
+    grid, and *Cancel* / *Delete* as quiet red links at the bottom, so they're harder to hit by mistake.
+  - Settings has a jump bar of its sections (Gmail, Appointments, TeslaMate, Google Maps, Backups…) that stays at
+    the top while you scroll.
+  - Icons in option buttons (Google Meet / Phone / In person) now line up with their text; drop-down menus have a
+    matching arrow; boxes are the same height across a row.
+  - Home: the to-do list keeps invoice numbers on one line; the "Today's appointments" card no longer repeats "Today".
+  - The invoice wizard's session date says *From the appointment* underneath instead of squeezing the label, and the
+    invoice summary no longer stretches to the bottom of the page.
+  - Reports: the date range stays on one line and the travel log no longer splits dates and invoice numbers.
+  - Appointments: the Counselling / Support work filter lines up with the tabs; appointment rows line up their
+    times and highlight on hover.
+  - Matching thin scrollbars throughout.
+
+### Fixed
+- The Session notes list was indented unevenly (it picked up the notifications panel's spacing).
+- An invoice's panel said "Support" for counselling sessions; it now shows the session type.
+
 ## [1.14.0] — 2026-10-13
 
 ### New
