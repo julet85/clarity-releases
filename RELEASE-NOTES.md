@@ -13,6 +13,14 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.16.1] — 2026-10-13
+
+### Fixed
+- **iPhone: online bookings now come straight from Google Calendar.** The iPhone's request to Calendar was
+  rejected ("Google: Bad Request") because the time zone in it (+08:00) wasn't encoded properly, so new bookings
+  only appeared after the PC had picked them up. The same fix applies to fetching Meet transcripts and to sync's
+  file listing.
+
 ## [1.16.0] — 2026-10-13
 
 ### New
