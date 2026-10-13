@@ -20,6 +20,9 @@ change adds or extends an entry here. (Maintainers: features → bump the middle
   rejected ("Google: Bad Request") because the time zone in it (+08:00) wasn't encoded properly, so new bookings
   only appeared after the PC had picked them up. The same fix applies to fetching Meet transcripts and to sync's
   file listing.
+- **iPhone: really back where you left off.** Leaving the app still locks it straight away (the keys are dropped and
+  Face ID is needed), but the open page is no longer emptied while locked — emptying it made iOS close pages opened
+  from a list (like a session note), so you landed back on the list. *Lock now* in Settings still clears everything.
 
 ## [1.16.0] — 2026-10-13
 
