@@ -27,6 +27,11 @@ change adds or extends an entry here. (Maintainers: features → bump the middle
   chance to ask questions. The GST sentence follows your GST registration. Clients with the old version are flagged to
   re-sign.
 
+- **Signing section redesigned** (PC and iPhone PDFs): matching panels for the participant (or their representative)
+  and, on the service agreement, the provider side by side — proper lines to sign and write on, tick boxes for who is
+  signing, and the provider's name and business filled in. A printed blank agreement now shows the agreed terms
+  (schedule, notice periods, review) instead of empty boxes.
+
 ### Fixed
 - Consent PDFs failed to generate when a heading contained an apostrophe.
 
