@@ -13,6 +13,23 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.17.0] — 2026-10-14
+
+### Changed
+- **NDIS service agreement, version 2.0**, following the NDIS guidance on making a service agreement. It now covers
+  who it's for and who can help them (nominee, family, advocate); the supports, the plan budget they come from and the
+  participant's goals; **how and when** they're delivered (who, in person/telehealth, usual schedule); **cost** with
+  notice before any price change; **how the provider is paid** (worded for self-, plan- or NDIA-managed plans);
+  cancellations (and that the participant is never charged when the provider cancels); **important dates and
+  reviews**; both parties' responsibilities; **the participant's rights**; **what to do if something goes wrong**
+  (provider, NDIS Commission, NDIA, independent advocacy); changes and ending; privacy. It says it doesn't limit the
+  NDIS Code of Conduct, can be explained or given in another format, and asks the participant to confirm they had the
+  chance to ask questions. The GST sentence follows your GST registration. Clients with the old version are flagged to
+  re-sign.
+
+### Fixed
+- Consent PDFs failed to generate when a heading contained an apostrophe.
+
 ## [1.16.1] — 2026-10-13
 
 ### Fixed
