@@ -27,6 +27,9 @@ change adds or extends an entry here. (Maintainers: features → bump the middle
   chance to ask questions. The GST sentence follows your GST registration. Clients with the old version are flagged to
   re-sign.
 
+- **Both parties sign the service agreement on screen.** Signing an NDIS service agreement in Clarity (PC or iPhone)
+  now has two signature boxes: the participant (or their representative) and Joanne for the provider — each signs with
+  a finger, pen or mouse, and both signatures appear on the PDF. It can't be saved until both have signed.
 - **Signing section redesigned** (PC and iPhone PDFs): matching panels for the participant (or their representative)
   and, on the service agreement, the provider side by side — proper lines to sign and write on, tick boxes for who is
   signing, and the provider's name and business filled in. A printed blank agreement now shows the agreed terms
