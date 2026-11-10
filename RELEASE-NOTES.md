@@ -13,6 +13,33 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.18.0] — 2026-11-10
+
+### Improved
+- **Invoice due dates start when the invoice is sent, not when it's made.** You can now make invoices whenever it
+  suits and email them later: the payment terms (for example 14 days) count from the day the invoice is first
+  emailed from Clarity, on the PC or the iPhone. At that moment the due date on the invoice, its PDF and the email is
+  set to today plus your terms, and the change is noted in the audit log. The invoice date itself doesn't change.
+- Until it's sent, an invoice shows "Due 14 days after it's sent", is never marked overdue, isn't counted in the
+  Overdue figure or reminders, and sits in "current" in the money-owed ageing on Reports.
+- Sending a copy again ("resend") never moves the due date. Invoices made before this update keep their dates.
+- If you print or hand over an invoice without emailing it from Clarity, it keeps the date it was made with and
+  won't show as overdue — email it from Clarity to start the clock.
+
+## [1.17.2] — 2026-11-01
+
+### Fixed
+- **iPhone: ready for TestFlight.** The app now includes Apple's privacy manifest, which App Store Connect requires
+  before it accepts an upload. It states that Clarity doesn't track you or collect data, and that it uses iOS's
+  settings storage only for its own settings. Nothing about how the app works has changed.
+
+## [1.17.1] — 2026-11-01
+
+### Fixed
+- **iPhone: route planner leg labels.** The "A→B", "B→C" labels under the map are now built as plain text, which
+  clears two Xcode deprecation warnings. Labels look the same; a route with more than 26 stops now stays on "Z"
+  instead of running past the alphabet.
+
 ## [1.17.0] — 2026-10-14
 
 ### Changed
