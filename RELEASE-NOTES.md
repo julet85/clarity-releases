@@ -13,6 +13,16 @@ Clarity Desk (Windows) and the Clarity iPhone app, for Clarity Counselling Austr
 The newest version is at the top. The build reads its version from the first `## [x.y.z]` heading below, so every
 change adds or extends an entry here. (Maintainers: features → bump the middle number, fixes only → the last.)
 
+## [1.18.1] — 2026-11-11
+
+### Fixed
+- **PC: "Couldn't check for updates (URLError)".** GitHub now serves update downloads from a new address, and some
+  Windows PCs don't yet trust the certificate behind it, so the check failed even though the internet was fine.
+  Clarity now carries its own up-to-date list of trusted certificate authorities for update downloads, alongside
+  Windows' own. Updates are still only installed if they decrypt with Clarity's key and carry the build's signature.
+- If a check still fails, the message now says why (no internet, the secure connection couldn't be verified,
+  GitHub too slow), and a dropped connection is retried once by itself.
+
 ## [1.18.0] — 2026-11-10
 
 ### Improved
